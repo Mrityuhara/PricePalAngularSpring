@@ -1,0 +1,10 @@
+version: '3'
+services:
+  postgres:
+    build: ./postgres
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: pricepal
+
+    ports:
+      - "5431:5431"
