@@ -22,6 +22,7 @@ public class Item {
 
     private String notes;
 
+
     @Override
     public boolean equals(Object object) {
         if (this == object) return true;
@@ -75,3 +76,5 @@ public class Item {
         this.id = id;
     }
 }
+
+

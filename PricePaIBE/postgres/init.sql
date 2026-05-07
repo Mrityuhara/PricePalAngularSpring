@@ -1,7 +1,7 @@
-create table item (
-    id serial primary key,
-    name varchar(100) not null,
-    price decimal(10,2) not null,
-    supermarket varchar (100) not null,
-    notes text,
-)
+CREATE TABLE IF NOT EXISTS item (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    price DOUBLE PRECISION,
+    supermarket VARCHAR(255),
+    notes VARCHAR(255)
+);
